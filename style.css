@@ -1,0 +1,94 @@
+body {
+  background-color: #f1f1f1;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 80px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  border: none;
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#rock {
+  background-color: #ff5252;
+}
+
+#paper {
+  background-color: #2196f3;
+}
+
+#scissors {
+  background-color: #4caf50;
+}
+
+#user-score {
+  color: #2196f3;
+}
+
+#computer-score {
+  color: #ff5252;
+}
+
+.battle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 4rem;
+}
+
+.emoji {
+  margin: 0 30px;
+  transition: transform 0.3s ease;
+}
+
+#result {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+#restart {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#restart:hover {
+  background-color: #512da8;
+}
